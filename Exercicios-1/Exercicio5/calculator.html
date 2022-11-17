@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="calculator.css" rel="stylesheet">
+    <!-- <script type="text/javascript" src="calculator.js"></script>     -->
+    <title>Calculator!</title>
+    <style>
+        table {
+            width: 50%;
+        }
+        button {
+            width: 100%;
+            font-size: 150%;
+        }
+        .ac {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4"><button id="result">0</button></td>
+      </tr>
+      <tr>
+        <td><button id="number-1">1</button></td>
+        <td><button id="number-2">2</button></td>
+        <td><button id="number-3">3</button></td>
+        <td><button id="soma">+</button></td>
+      </tr>
+      <tr>
+        <td><button id="number-4">4</button></td>
+        <td><button id="number-5">5</button></td>
+        <td><button id="number-6">6</button></td>
+        <td><button id="subtracao">-</button></td>
+      </tr>
+      <tr>
+        <td><button id="number-7">7</button></td>
+        <td><button id="number-8">8</button></td>
+        <td><button id="number-9">9</button></td>
+        <td><button id="multiplicacao">*</button></td>
+      </tr>
+      <tr>
+        <td colspan="3"><button id="number-0">0</button></td>
+        <td colspan="3"><button id="divisao">/</button></td>          
+      </tr>
+      <tr>
+        <td colspan="2"><button class="ac">AC</button></td>
+        <td><button id="ponto">.</button></td>
+        <!-- <td><button id="igual" onclick="soma()")>=</button></td>           -->
+        <td><button id="igual">=</button></td>
+      </tr>
+    </table>
+  </body>
+  <script type="text/javascript" src="calculator.js"></script>  
+  
+  
+</html>
